@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "763d2e61-feb0-4ba4-aceb-d0d85febbf4a",
+		"name": "Allura",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35397660"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/feedbacks",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"id\": \"cb9908cd-4e66-4e6a-ba3a-75e0122c0823\",\n\"feedback\": \"Gosto muito de usar o Alumind! Está me ajudand o bastante em relação a alguns problemas que tenho. Só quer ia que houvesse uma forma mais fácil de eu mesmo realizar a edição do meu perfil dentro da minha conta\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/feedbacks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"feedbacks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/resumo_semanal",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/resumo_semanal",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"resumo_semanal"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
